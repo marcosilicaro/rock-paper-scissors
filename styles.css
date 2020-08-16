@@ -1,0 +1,71 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  color: white;
+  background-color: darkslateblue;
+}
+
+/* TOP SCORES */
+
+.top-scores {
+  background-color: darkgray;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 120px;
+  grid-column-gap: 150px;
+  font-weight: bold;
+}
+
+.player-score {
+  display: grid;
+  background-color: darkkhaki;
+  justify-items: end;
+}
+
+.computer-score {
+  display: grid;
+  background-color: darkmagenta;
+  justify-items: start;
+}
+
+.hands {
+  width: 300px;
+}
+
+.score-text-left {
+  padding-right: 60px;
+}
+
+.score-text-right {
+  padding-left: 60px;
+}
+
+/* PRESENTATION */
+
+.presentation {
+  line-height: 0px;
+}
+
+/* BUTTONS */
+
+.footer {
+  background-color: firebrick;
+  display: grid;
+  justify-items: center;
+}
+
+.ui {
+  background-color: darkturquoise;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 50%;
+  justify-items: center;
+}
+
+.button img {
+  width: 70px;
+}
+
+.button img:hover {
+  width: 100px;
+}
