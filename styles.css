@@ -8,7 +8,6 @@ html {
 /* TOP SCORES */
 
 .top-scores {
-  background-color: darkgray;
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding-top: 120px;
@@ -18,13 +17,11 @@ html {
 
 .player-score {
   display: grid;
-  background-color: darkkhaki;
   justify-items: end;
 }
 
 .computer-score {
   display: grid;
-  background-color: darkmagenta;
   justify-items: start;
 }
 
@@ -49,13 +46,11 @@ html {
 /* BUTTONS */
 
 .footer {
-  background-color: firebrick;
   display: grid;
   justify-items: center;
 }
 
 .ui {
-  background-color: darkturquoise;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   width: 50%;
